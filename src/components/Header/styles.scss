@@ -1,26 +1,96 @@
+@import '../../utils/media.scss';
+
 .Header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1.5rem;
-    border-bottom: 1px solid rgba(255,255,255,0.3);
-    position: fixed;
-    width: 100%;
+    background: url('./splash.JPEG') no-repeat center center;
+    background-size: cover;
 
-    &-logo {
-        padding-top: 1rem;
+    &-navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 1rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        @media (min-width: $tablet) {
+            padding: 0 2rem;
+        }
+        &.white {
+            background-color: white;
+            transition: 0.2 ease-in-out;
+        }
 
-        & img {
-            width: 12rem;
+        &__logo {
+            padding-top: 1.25rem;
+            padding-bottom: .5rem;
+
+            & img {
+                width: 7rem;
+                @media (min-width: $tablet) {
+                    width: 8rem;
+                }
+                @media (min-width: $laptop) {
+                    width: 10rem;
+                }
+            }
+        }
+        &__navigation {
+            & nav {
+                background-color: transparent !important;
+                &.white {
+                    background-color: white !important;
+                }
+            }
+            & a.nav-link {
+                font-weight: 600;
+                color: rgba(255,255,255,.75);
+                &:hover {
+                    color: rgba(255,255,255,1);
+                }
+                &.dark {
+                    color: rgba(0,0,0,.65);
+                    transition: 0.2s ease-in-out;
+                    &:hover {
+                        color: black;
+                    }
+                }
+                &.active {
+                    color: black;
+                }
+            }
+            & .navbar-toggler-icon {
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='35' height='35' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+            }
         }
     }
-}
+    &-mainLogo {
+        width: 100%;
+        height: 16rem;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.2);
+        @media (min-width: $tablet) {
+            height: 32rem;
+        }
+        @media (min-width: $laptop) {
+            height: 45rem;
+        }
 
-.example {
-    width: 100%;
-    height: 35rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0,0,0,0.1);
+        & img {
+            width: 16rem;
+            position: relative;
+            z-index: 0;
+            top: 3rem;
+            @media (min-width: $tablet) {
+                width: 24rem;
+            }
+            @media (min-width: $laptop) {
+                width: 30rem;
+                padding-right: 2rem;
+                top: 4rem;
+            }
+        }
+    }
 }
