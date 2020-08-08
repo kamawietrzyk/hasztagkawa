@@ -38,7 +38,7 @@ class Header extends Component {
             { name: "contact", label: "KONTAKT", href: "#contact" }
         ]
         return (
-            <div className="Header" id="home">
+            <div className="Header">
                 <div className={`Header-navbar ${this.state.position && "white"}`}>
                     <div className="Header-navbar__logo">
                         <a href="#home">
