@@ -38,7 +38,7 @@ class Header extends Component {
             { name: "contact", label: "KONTAKT", href: "#contact" }
         ]
         return (
-            <div className="Header">
+            <div className="Header" id="home">
                 <div className={`Header-navbar ${this.state.position && "white"}`}>
                     <div className="Header-navbar__logo">
                         <a href="#home">
@@ -47,8 +47,8 @@ class Header extends Component {
                     </div>
                     <div className="Header-navbar__navigation">
                         <nav className={`navbar navbar-expand-md ${this.state.position && "white"}`}>
-                            <button className="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                                <span className="navbar-toggler-icon"></span>
+                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span className={`navbar-toggler-icon ${this.state.position ? "dark-icon" : "light-icon"}`}></span>
                             </button>
                             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div className="navbar-nav">
@@ -60,7 +60,7 @@ class Header extends Component {
                         </nav>
                     </div>
                 </div>
-                <div className="Header-mainLogo text-light">
+                <div className="Header-mainLogo">
                     <img src={bialeLogo} alt="hasztagKawa logo duże" />
                 </div>
             </div>
