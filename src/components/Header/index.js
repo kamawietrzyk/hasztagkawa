@@ -5,8 +5,7 @@ import './styles.scss'
 
 class Header extends Component {
     state = {
-        position: false,
-        clicked: false
+        position: false
     };
 
     componentDidMount() {
@@ -53,7 +52,7 @@ class Header extends Component {
                             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div className="navbar-nav">
                                     {tabs.map(({ name, label, href }) => (
-                                        <a key={name} className={`nav-item nav-link ${this.state.position && "dark"}`} onClick={this.handleClick} href={href}>{label}</a>
+                                        <a key={name} className={`nav-item nav-link ${this.state.position && "dark"}`} href={href}>{label}</a>
                                     ))}
                                 </div>
                             </div>
