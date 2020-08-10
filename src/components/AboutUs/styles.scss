@@ -1,0 +1,70 @@
+@import '../../utils/media.scss';
+
+.AboutUs {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-row-gap: .5rem;
+    padding: 3rem 1.5rem;
+
+    &-pic {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: .5rem;
+
+        & img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    &-text {
+        width: 100%;
+        height: auto;
+        display: grid;
+
+        & h2 {
+            color: #b88d6e;
+        }
+
+        & h2,
+        h4 {
+            padding-top: .5rem;
+            padding-bottom: .5rem;
+            @media (min-width: $laptop) {
+                padding: 0;
+            }
+        }
+
+        & hr {
+            border: 0;
+            height: 2px;
+            background-color: #e8e8e8;
+            width: 4rem;
+            margin: 0 0 .75rem 0;
+            @media (min-width: $tablet) {
+                width: 4rem;
+            }
+        }
+        @media (min-width: $desktop) {
+            padding: 6vh 3vh;
+        }
+    }
+
+    @media (min-width: $tablet) {
+        padding: 4rem 3rem;
+    }
+
+    @media (min-width: $laptop) {
+        grid-template-columns: 1.7fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 2rem;
+    }
+    @media (min-width: $desktop) {
+        padding: 8vh 15vh;
+    }
+}
