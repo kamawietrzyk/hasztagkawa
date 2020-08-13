@@ -5,7 +5,6 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Header from './components/Header';
 import AboutUs from './components/AboutUs';
-import Carousel from './components/Slider';
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
         <Header />
         <div className="App-content">
           <AboutUs />
-          <Carousel />
         </div>
       </div>
     </>

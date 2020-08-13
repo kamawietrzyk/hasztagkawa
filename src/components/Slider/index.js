@@ -22,7 +22,7 @@ export default class Carousel extends Component {
 
         const boys = [
             { pic: kuba, name: "KUBA", text: "Najstarszy, najmądrzejszy i z najdłuższą brodą. Człowiek orkiestra - z wykształcenia muzyk, z zawodu programista, hobbystycznie złota rączka i od niedawna także aktywny miłośnik Enduro. Twórca jednego z najpopularniejszych systemów do fakturowania online w Polsce - nie powinno więc dziwić, że w naszym przedsięwzięciu pilnuje wydatków." },
-            { pic: tomek, name: "TOMEK", text: "Średni, ale najważniejszy. Od ponad dekady parzy niesamowitą kawę, ma ogromne doświadczenie i wiedzę. To jego uśmiechniętą gębę będziecie oglądać w Kaczce, stojąc w kolejce po speciality coffee. Mamy nadzieję, że nie zamęczy Was opowieściami o młynkach, ziarnach i maszynach - bo (wierzcie nam!) może o tym gadać godzinami." },
+            { pic: tomek, name: "TOMEK", text: "Średni, ale najważniejszy. Od ponad dekady parzy niesamowitą kawę, ma ogromne doświadczenie i wiedzę. To jego uśmiechniętą gębę będziecie oglądać w Kaczce, stojąc w kolejce po swoją ulubioną kawę. Mamy nadzieję, że nie zamęczy Was opowieściami o młynkach, ziarnach i maszynach - bo (wierzcie nam!) może o tym gadać godzinami." },
             { pic: mat, name: "MATEUSZ", text: "Najmłodszy - cudowne dziecko, któremu zwykle wszystko się udaje. Ciętą ripostę wyssał z mlekiem matki. Miał być człowiekiem od PR i mediów społecznościowych, ale wkręcił się w stolarstwo. Na co dzień tester oprogramowania, więc jakość i funkcjonalność to dla niego priorytet, a w praktyce oznacza to, że ciągle się do czegoś czepia." }
         ]
 
