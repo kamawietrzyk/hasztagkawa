@@ -25,14 +25,30 @@
         }
 
         &__logo {
-            padding-top: 1.25rem;
-            padding-bottom: .5rem;
+            padding-top: .6rem;
+            padding-bottom: .15rem;
 
             & img {
-                width: 7rem;
+                display: none;
+
+                &.dark {
+                    display: block;
+                    width: 7rem;
+
+                    @media (min-width: $tablet) {
+                        width: 8rem;
+                    }
+
+                    @media (min-width: $laptop) {
+                        width: 10rem;
+                    }
+                }
 
                 @media (min-width: $tablet) {
+                    display: block;
                     width: 8rem;
+                    padding-top: 1.25rem;
+                    padding-bottom: .5rem;
                 }
 
                 @media (min-width: $laptop) {
@@ -93,7 +109,7 @@
 
     &-mainLogo {
         width: 100%;
-        height: 16rem;
+        height: 15rem;
         display: grid;
         align-items: center;
         justify-content: center;
@@ -104,18 +120,23 @@
         }
 
         @media (min-width: $laptop) {
-            height: 45rem;
+            height: 42rem;
         }
 
         & img {
-            width: 20rem;
+            width: 18rem;
             position: relative;
             padding-right: .5rem;
             z-index: 0;
-            top: 2.5rem;
+            top: 1.5rem;
+
+            @media (min-width: $mobileL) {
+                width: 20rem;
+            }
 
             @media (min-width: $tablet) {
                 width: 24rem;
+                top: 2.5rem;
             }
 
             @media (min-width: $laptop) {

@@ -1,5 +1,6 @@
 import React from "react";
 import trzyKawy from './trzyKawy.jpg';
+import kaczka1 from './kaczka1.jpg';
 import './styles.scss'
 import Carousel from "../Slider";
 
@@ -18,6 +19,16 @@ const AboutUs = () => (
             </div>
         </div>
         <Carousel />
+        <div className="Kaczka">
+            <div className="Kaczka-text">
+                <h3 className="hasztag mb-0">KACZKA</h3>
+                <hr />
+                <p>Przygotowania do otwarcia busa <span className="hasztag">#KAWA </span> trwały około 10 miesięcy, kosztowały nas mnóstwo ciężkiej pracy i hektolitry kawy cold brew (najszybciej się robi i najmocniej kopie). Auto, które kupiliśmy z zamiarem przebudowy, okazało się być w gorszym stanie, niż początkowo zakładaliśmy, dlatego bardzo dużo czasu i energii pochłonęło odrestaurowanie go. Wracaliśmy z pracy, by nocami i weekendami naprawiać, wymieniać części, spawać, szlifować i malować, a gdy auto było już gotowe wykonaliśmy w przydomowym garażu przepiękną, drewnianą zabudowę wnętrza, i oczywiście wyposażyliśmy busa w kawowe sprzęty najwyższej klasy.</p>
+            </div>
+            <div className="Kaczka-pic">
+                <img src={kaczka1} alt="#kaczka zdj.M.Bałaban" />
+            </div>
+        </div>
     </>
 )
 export default AboutUs

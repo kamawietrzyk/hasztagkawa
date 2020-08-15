@@ -39,7 +39,7 @@ export default class Carousel extends Component {
                                     <div className="Slider-container__content-text">
                                         <h3 className="hasztag mb-0">{name}</h3>
                                         <hr />
-                                        <p className="mb-0 mt-2">{text}</p>
+                                        <p className="mb-0">{text}</p>
                                     </div>
                                 </div>
                             </div>

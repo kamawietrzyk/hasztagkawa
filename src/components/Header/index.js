@@ -41,12 +41,12 @@ class Header extends Component {
                 <div className={`Header-navbar ${this.state.position && "white"}`}>
                     <div className="Header-navbar__logo">
                         <a href="#home">
-                            <img src={!this.state.position ? bialeLogo : czarneLogo} alt="hasztagKawa logo małe" />
+                            <img src={!this.state.position ? bialeLogo : czarneLogo} className={this.state.position && "dark"} alt="hasztagKawa logo małe" />
                         </a>
                     </div>
                     <div className="Header-navbar__navigation">
                         <nav className={`navbar navbar-expand-md ${this.state.position && "white"}`}>
-                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <button className="navbar-toggler p-1" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className={`navbar-toggler-icon ${this.state.position ? "dark-icon" : "light-icon"}`}></span>
                             </button>
                             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">

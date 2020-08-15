@@ -4,9 +4,13 @@
   width: 100%;
 
   &-content {
-    padding: 3rem 1.5rem;
+    padding: 1.5rem;
 
     @media (min-width: $tablet) {
+      padding: 2rem 3rem;
+    }
+
+    @media (min-width: $laptop) {
       padding: 4rem 3rem;
     }
 
