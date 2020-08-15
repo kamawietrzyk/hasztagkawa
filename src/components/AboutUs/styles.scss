@@ -3,14 +3,15 @@
 .AboutUs {
     width: 100%;
     height: auto;
-    background-color: white;
     display: grid;
+    padding-top: 8rem;
+    margin-top: -8rem;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, auto);
     grid-template-areas:
         "text"
         "coffees";
-    grid-row-gap: .5rem;
+    grid-row-gap: 1rem;
     margin-bottom: 5vw;
 
     &-pic {

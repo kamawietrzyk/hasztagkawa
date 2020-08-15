@@ -23,7 +23,7 @@ const AboutUs = () => (
             <div className="Kaczka-text">
                 <h3 className="hasztag mb-0">KACZKA</h3>
                 <hr />
-                <p>Przygotowania do otwarcia busa <span className="hasztag">#KAWA </span> trwały około 10 miesięcy, kosztowały nas mnóstwo ciężkiej pracy i hektolitry kawy cold brew (najszybciej się robi i najmocniej kopie). Auto, które kupiliśmy z zamiarem przebudowy, okazało się być w gorszym stanie, niż początkowo zakładaliśmy, dlatego bardzo dużo czasu i energii pochłonęło odrestaurowanie go. Wracaliśmy z pracy, by nocami i weekendami naprawiać, wymieniać części, spawać, szlifować i malować, a gdy auto było już gotowe wykonaliśmy w przydomowym garażu przepiękną, drewnianą zabudowę wnętrza, i oczywiście wyposażyliśmy busa w kawowe sprzęty najwyższej klasy.</p>
+                <p>Przygotowania do otwarcia busa <span className="hasztag">#KAWA </span> trwały około 10 miesięcy, kosztowały nas mnóstwo ciężkiej pracy i hektolitry kawy (głównie cold brew - bo najszybciej się robi i najmocniej kopie). Auto, które kupiliśmy z zamiarem przebudowy, okazało się być w gorszym stanie, niż początkowo zakładaliśmy, dlatego bardzo dużo czasu i energii pochłonęło odrestaurowanie go. Wracaliśmy z pracy, by nocami i weekendami naprawiać, wymieniać części, spawać, szlifować i malować, a gdy auto było już gotowe zaprojektowaliśmy i wykonaliśmy w przydomowym garażu przepiękną, drewnianą zabudowę wnętrza, i oczywiście wyposażyliśmy busa w kawowe sprzęty najwyższej klasy.</p>
             </div>
             <div className="Kaczka-pic">
                 <img src={kaczka1} alt="#kaczka zdj.M.Bałaban" />
