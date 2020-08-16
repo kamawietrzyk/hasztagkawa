@@ -1,0 +1,70 @@
+@import '../../utils/media.scss';
+
+.Coffee {
+    height: 50rem;
+    background: url('./kawaBg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+
+    &-container {
+        width: 100%;
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__content {
+            width: 86vw;
+            height: 90%;
+            background-color: rgba(255, 255, 255, 0.35);
+            display: grid;
+            padding: 1.5rem 1rem;
+
+            & h2 {
+                color: rgba(255, 255, 255, 0.85);
+
+                @media (min-width: $tablet) {
+                    text-align: center;
+                }
+            }
+
+            & hr {
+                background-color: rgba(232, 232, 232, 0.4);
+                margin: 1.5rem 0;
+
+                @media (min-width: $tablet) {
+                    margin: 1rem auto;
+                }
+            }
+
+            @media (min-width: $mobileM) {
+                padding: 3rem 1rem;
+            }
+
+            @media (min-width: $mobileL) {
+                height: 77%;
+            }
+
+            @media (min-width: $tablet) {
+                width: 77vw;
+                height: 22rem;
+                padding: 1.5rem 1rem;
+            }
+
+            @media (min-width: $desktop) {
+                width: 70vw;
+                padding: 3rem;
+            }
+        }
+    }
+
+    @media (min-width: $tablet) {
+        height: 31rem;
+    }
+
+    @media (min-width: $laptop) {
+        margin-top: 0;
+    }
+}

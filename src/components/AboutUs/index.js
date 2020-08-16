@@ -29,6 +29,7 @@ const AboutUs = () => (
                 <img src={kaczka1} alt="#kaczka zdj.M.Bałaban" />
             </div>
         </div>
+        <hr className="divider" />
     </>
 )
 export default AboutUs
