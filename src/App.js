@@ -6,6 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Header from './components/Header';
 import AboutUs from './components/AboutUs';
 import Coffee from './components/Coffee';
+import Eco from './components/Eco';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <AboutUs />
         </div>
         <Coffee />
+        <Eco />
       </div>
     </>
   );

@@ -32,6 +32,7 @@ class Header extends Component {
             { name: "home", label: "HOME", href: "#home" },
             { name: "about", label: "O NAS", href: "#about" },
             { name: "coffee", label: "KAWA", href: "#coffee" },
+            { name: "eco", label: "EKOLOGIA", href: "#eco" },
             { name: "events", label: "EVENTY", href: "#events" },
             { name: "galery", label: "GALERIA", href: "#galery" },
             { name: "contact", label: "KONTAKT", href: "#contact" }

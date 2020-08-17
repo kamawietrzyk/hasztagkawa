@@ -1,10 +1,10 @@
 @import '../../utils/media.scss';
 
 .Coffee {
-    height: 50rem;
+    height: 52rem;
     background: url('./kawaBg.jpg') no-repeat center center fixed;
     background-size: cover;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
     margin-top: 2rem;
 
     &-container {
@@ -18,7 +18,7 @@
         &__content {
             width: 86vw;
             height: 90%;
-            background-color: rgba(255, 255, 255, 0.35);
+            background-color: rgba(255, 255, 255, 0.4);
             display: grid;
             padding: 1.5rem 1rem;
 
@@ -48,9 +48,9 @@
             }
 
             @media (min-width: $tablet) {
-                width: 77vw;
-                height: 22rem;
-                padding: 1.5rem 1rem;
+                width: 75vw;
+                height: 23rem;
+                padding: 1.5rem;
             }
 
             @media (min-width: $desktop) {
@@ -61,7 +61,7 @@
     }
 
     @media (min-width: $tablet) {
-        height: 31rem;
+        height: 36rem;
     }
 
     @media (min-width: $laptop) {
