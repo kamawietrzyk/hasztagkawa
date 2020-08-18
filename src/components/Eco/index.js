@@ -12,7 +12,7 @@ const Eco = () => (
                 <span className="icon">
                     <FontAwesomeIcon icon={faGlobeEurope} size="3x" />
                 </span>
-                <p>Kwestia troski o środowisko jest dla nas niezwykle istotna, dlatego używane przez nas kubki wykonane są z tektury i bio tworzywa PLA (powstałego na bazie skrobi kukurydzianej - kompostuje się w około 80 dni). Nakładki na wynos są tekturowe, serwetki to niebielony papier z recyklingu, a słomki zrobione są z tektury i powleczone wewnątrz woskiem pszczelim.</p>
+                <p>Kwestia troski o środowisko jest dla nas niezwykle istotna, dlatego używane przez nas kubki wykonane są z tektury i bio tworzywa PLA (powstałego na bazie skrobi kukurydzianej - kompostuje się w około 80 dni). Nasze nakładki na wynos są tekturowe, serwetki to niebielony papier z recyklingu, a słomki wykonane są z tektury i powleczone wewnątrz woskiem pszczelim.</p>
             </div>
             <div className="box-two">
                 <span className="icon">

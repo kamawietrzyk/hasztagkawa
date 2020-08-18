@@ -40,7 +40,11 @@
             }
 
             @media (min-width: $desktop) {
-                height: 22rem;
+                height: 25rem;
+            }
+
+            @media (min-width: $desktopL) {
+                height: 20rem;
             }
         }
 
@@ -69,5 +73,13 @@
     & hr {
         background-color: rgb(232, 232, 232);
         margin: 1rem auto;
+    }
+
+    @media (min-width: $desktop) {
+        padding: 3rem 5vw;
+    }
+
+    @media (min-width: $desktopL) {
+        padding: 4rem 7vw;
     }
 }
