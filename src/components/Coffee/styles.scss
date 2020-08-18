@@ -61,7 +61,7 @@
     }
 
     @media (min-width: $mobileM) {
-        height: 64rem;
+        height: 66rem;
     }
     @media (min-width: $tablet) {
         height: 45rem;
@@ -69,5 +69,6 @@
 
     @media (min-width: $laptop) {
         margin-top: 0;
+        margin-bottom: 6rem;
     }
 }
