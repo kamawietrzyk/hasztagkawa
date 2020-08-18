@@ -4,7 +4,7 @@
     height: 76rem;
     background: url('./kawaBg.jpg') no-repeat center center fixed;
     background-size: cover;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
     margin-top: 2rem;
 
     &-container {
@@ -48,12 +48,9 @@
             }
 
             @media (min-width: $tablet) {
+                height: 80%;
                 width: 75vw;
                 padding: 1.5rem;
-            }
-
-            @media (min-width: $laptop) {
-                height: 80%;
             }
 
             @media (min-width: $desktop) {
