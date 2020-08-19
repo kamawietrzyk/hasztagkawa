@@ -63,6 +63,7 @@
             }
 
             @media (min-width: $tablet) {
+                height: 43rem;
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: auto;
                 grid-template-areas:
@@ -77,6 +78,16 @@
             @media (min-width: $desktop) {
                 grid-template-columns: 1.4fr .7fr;
             }
+        }
+
+        @media (min-width: $mobileL) {
+            padding: 0 7vw;
+        }
+        @media (min-width: $mobileHorizontal) {
+            padding: 0 15vw;
+        }
+        @media (min-width: $tablet) {
+            padding: 0;
         }
     }
 }

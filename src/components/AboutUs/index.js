@@ -13,7 +13,7 @@ const AboutUs = () => (
             <div className="AboutUs-text">
                 <h2 className="hasztag">O NAS</h2>
                 <hr />
-                <h4>Cześć!</h4>
+                <h4>Czołem!</h4>
                 <p>Nazywamy się <span className="hasztag">#KAWA</span> i jesteśmy braćmi, którzy wymarzyli sobie wspólny biznes.</p>
                 <p>Jest nas 3 - Kuba, Tomek i Mateusz, a do kompletu jedna ONA - Kaczka, która dostała od nas drugie życie i po wielu miesiącach ciężkiej pracy stała się przepięknym, jedynym w swoim rodzaju coffeetruckiem.</p>
             </div>
@@ -29,6 +29,7 @@ const AboutUs = () => (
                 <img src={kaczka1} alt="#kaczka zdj.M.Bałaban" />
             </div>
         </div>
+        <hr className="divider" />
     </>
 )
 export default AboutUs
