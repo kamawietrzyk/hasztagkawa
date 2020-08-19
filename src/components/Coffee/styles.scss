@@ -46,9 +46,11 @@
             @media (min-width: $mobileL) {
                 height: 90%;
             }
+            @media (min-width: $mobileHorizontal) {
+                height: 80%;
+            }
 
             @media (min-width: $tablet) {
-                height: 80%;
                 width: 75vw;
                 padding: 1.5rem;
             }
@@ -63,6 +65,11 @@
     @media (min-width: $mobileM) {
         height: 66rem;
     }
+
+    @media (min-width: $mobileHorizontal) {
+        height: 50rem;
+    }
+
     @media (min-width: $tablet) {
         height: 45rem;
     }

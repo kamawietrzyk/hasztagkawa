@@ -6,6 +6,10 @@
   &-container {
     padding: 1.5rem;
 
+    @media (min-width: $mobileHorizontal) {
+      padding: 1.5rem 2.5rem;
+    }
+
     @media (min-width: $tablet) {
       padding: 2rem 3rem;
     }
