@@ -19,13 +19,13 @@ const Eco = () => (
                     <FontAwesomeIcon icon={faChild} size="2x" />
                     <FontAwesomeIcon icon={faChild} size="3x" />
                 </span>
-                <p>Każdy z naszej trójki ma dzieci – nie chcemy pozostawić ich w świecie, w którym przez ludzki egoizm utoną w morzu plastikowych śmieci. Nurt #zerowaste od początku był naszym drogowskazem, także gdy restaurowaliśmy busa, dlatego do remontu i zabudowy używaliśmy części z recyklingu oraz drewna, a całość zabezpieczyliśmy olejami i substancjami pochodzenia naturalnego.</p>
+                <p>Każdy z naszej trójki ma dzieci – nie chcemy pozostawić ich w świecie, w którym przez ludzki egoizm utoną w morzu plastikowych śmieci. Nurt #zerowaste od początku był naszym drogowskazem, także gdy odnawialiśmy busa, dlatego do remontu i zabudowy używaliśmy części z recyklingu oraz drewna, a całość drewnianej zabudowy zabezpieczyliśmy naturalnymi woskami i olejami.</p>
             </div>
             <div className="box-three">
                 <span className="icon">
                     <FontAwesomeIcon icon={faLeaf} size="3x" />
                 </span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in nulla pariatur voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p>Czujemy się integralną częścią naszej planety (jak mówią w świecie - <i>Cause there's no PLANet "B"!</i>), dlatego chętnie bierzemy udział we wszelkiego rodzaju akcjach charytatywnych i społecznych, które mają na celu poprawę jakości życia (m.in. zbiórki pieniędzy dla chorych dzieci czy dni otwarte schroniska) oraz ochronę środowiska - za zgromadzone napiwki regularnie sadzimy drzewka!</p>
             </div>
         </div>
     </div>

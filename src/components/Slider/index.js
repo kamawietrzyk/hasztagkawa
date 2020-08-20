@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
-import kuba from '../Slider/kuba.JPEG';
-import mat from '../Slider/mat.JPEG';
-import tomek from '../Slider/tomek.JPEG';
+import kuba from './kuba.JPEG';
+import mat from './mat.JPEG';
+import tomek from './tomek.JPEG';
 import './styles.scss';
 
 export default class Carousel extends Component {
