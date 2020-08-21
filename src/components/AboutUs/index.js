@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 import trzyKawy from './trzyKawy.jpg';
 import kaczka1 from './kaczka1.jpg';
 import './styles.scss'
-import Carousel from "../Slider";
+import Carousel from '../Carousel';
 
 const AboutUs = () => (
     <>

@@ -5,6 +5,14 @@
     padding-top: 6rem;
     margin-top: -6rem;
 
+    & h2 {
+        text-align: center;
+
+        @media (min-width: $desktop) {
+            margin-top: 4rem;
+        }
+    }
+
     &-container {
         width: inherit;
         display: grid;
@@ -36,7 +44,7 @@
 
             @media (min-width: $laptop) {
                 height: 30rem;
-                padding: 1.75rem 1rem 1rem 1rem;
+                padding: 1.75rem 1rem 1rem 1.5rem;
             }
 
             @media (min-width: $desktop) {

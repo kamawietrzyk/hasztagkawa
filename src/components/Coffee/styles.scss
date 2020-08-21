@@ -2,7 +2,7 @@
 
 .Coffee {
     height: 76rem;
-    background: url('./kawaBg.jpg') no-repeat center center fixed;
+    background: url('https://images.unsplash.com/photo-1513530176992-0cf39c4cbed4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80') no-repeat center 5% fixed;
     background-size: cover;
     margin-bottom: 3rem;
     margin-top: 2rem;
@@ -18,12 +18,12 @@
         &__content {
             width: 86vw;
             height: 90%;
-            background-color: rgba(255, 255, 255, 0.4);
+            background-color: rgba(255, 255, 255, 0.45);
             display: grid;
             padding: 1.5rem 1rem;
 
             & h2 {
-                color: rgba(255, 255, 255, 0.85);
+                color: white;
 
                 @media (min-width: $tablet) {
                     text-align: center;
@@ -31,7 +31,7 @@
             }
 
             & hr {
-                background-color: rgba(232, 232, 232, 0.4);
+                background-color: rgba(232, 232, 232, 0.6);
                 margin: 1.5rem 0;
 
                 @media (min-width: $tablet) {
@@ -75,7 +75,6 @@
     }
 
     @media (min-width: $laptop) {
-        margin-top: 0;
-        margin-bottom: 6rem;
+        margin-top: 1rem;
     }
 }

@@ -30,17 +30,15 @@ export default class Carousel extends Component {
             <div>
                 <Slider {...settings}>
                     {boys.map(({ pic, name, text }) => (
-                        <div>
-                            <div className="Slider-container">
-                                <div className="Slider-container__content">
-                                    <div className="Slider-container__content-pic">
-                                        <img src={pic} alt="#kawa Kuba foto" />
-                                    </div>
-                                    <div className="Slider-container__content-text">
-                                        <h3 className="hasztag mb-0">{name}</h3>
-                                        <hr />
-                                        <p className="mb-0">{text}</p>
-                                    </div>
+                        <div className="Carousel">
+                            <div className="Carousel-content">
+                                <div className="Carousel-content__pic">
+                                    <img src={pic} alt="#kawa Kuba foto" />
+                                </div>
+                                <div className="Carousel-content__text">
+                                    <h3 className="hasztag mb-0">{name}</h3>
+                                    <hr />
+                                    <p className="mb-0">{text}</p>
                                 </div>
                             </div>
                         </div>
