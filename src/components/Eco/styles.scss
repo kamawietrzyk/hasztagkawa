@@ -7,6 +7,7 @@
 
     & h2 {
         text-align: center;
+        color: #9e7b57;
 
         @media (min-width: $desktop) {
             margin-top: 4rem;
@@ -28,7 +29,7 @@
         & .box-one,
         .box-two,
         .box-three {
-            background-color: rgba(232, 232, 232, 0.5);
+            background-color: rgba(186,147,105,.14);
             height: auto;
             width: 100%;
             margin-bottom: 1rem;
@@ -79,7 +80,7 @@
     }
 
     & hr {
-        background-color: rgb(232, 232, 232);
+        background-color: rgba(186,147,105,.3);
         margin: 1rem auto;
     }
 

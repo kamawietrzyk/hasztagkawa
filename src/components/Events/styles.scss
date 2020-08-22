@@ -5,5 +5,14 @@
 
     &-text {
         margin-bottom: 2rem;
+
+        & .custom-link {
+            color: rgba(186,147,105,.7);
+
+            &:hover {
+                color: #9e7b57;
+                text-decoration: none;
+            }
+        }
     }
 }

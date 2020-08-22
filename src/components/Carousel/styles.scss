@@ -9,7 +9,7 @@
         width: 100%;
         height: 43rem;
         background-color: white;
-        border: 2px solid #e8e8e8;
+        border: 2px solid rgba(186,147,105,.2);
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: repeat(2 auto);
@@ -34,7 +34,7 @@
                 display: block;
                 border: 0;
                 height: 2px;
-                background-color: #e8e8e8;
+                background-color: rgba(186,147,105,.3);
                 width: 4rem;
             }
 
@@ -47,6 +47,10 @@
             width: 100%;
             padding: 1.5rem;
             grid-area: text;
+
+            & h3 {
+                color: #9e7b57;
+            }
 
             @media (min-width: $tablet) {
                 display: grid;

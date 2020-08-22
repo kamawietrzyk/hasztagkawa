@@ -1,13 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles.scss';
-import CarouselSmall from '../CarouselSmall';
+import CarouselSmall from '../CarouselPhotos';
 
 const Events = () => (
     <div className="Events" id="events">
         <div className="Events-text">
             <h2 className="hasztag">EVENTY</h2>
             <hr />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Oprócz tego, że regularnie serwujemy kawę w busie w Małopolsce, równie chętnie uświetniamy swoją obecnością imprezy okolicznościowe, takie jak wesela czy przyjęcia tematyczne. Jeśli chcielibyście, żebyśmy zagościli u Was i oczarowali Waszych gości najlepszą kawą podaną w przepiękny sposób i z uśmiechem na twarzy, napiszcie do nas!</p>
+            <p>Zdjęcia by <Link className="custom-link" to="https://bauaban.com/" alt="Marcin Bałaban website">Marcin Bałaban - Bauaban Wedding Stories</Link></p>
         </div>
         <CarouselSmall />
     </div>

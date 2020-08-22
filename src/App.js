@@ -8,6 +8,7 @@ import AboutUs from './components/AboutUs';
 import Coffee from './components/Coffee';
 import Eco from './components/Eco';
 import Events from './components/Events';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <div className="App-events">
           <Events />
         </div>
+        <Contact />
       </div>
     </>
   );
