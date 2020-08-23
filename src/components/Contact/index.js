@@ -3,7 +3,11 @@ import './styles.scss';
 
 const Contact = () => (
     <div className="Contact" id="contact">
-        <h2 className="hasztag">KONTAKT</h2>
+        <div className="Contact-content">
+            <h2 className="hasztag">KONTAKT</h2>
+            <hr />
+            <p>/uzupełnić treścią/</p>
+        </div>
     </div>
 )
 

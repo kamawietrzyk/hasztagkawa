@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './styles.scss';
 import CarouselSmall from '../CarouselPhotos';
 
@@ -8,8 +7,8 @@ const Events = () => (
         <div className="Events-text">
             <h2 className="hasztag">EVENTY</h2>
             <hr />
-            <p>Oprócz tego, że regularnie serwujemy kawę w busie w Małopolsce, równie chętnie uświetniamy swoją obecnością imprezy okolicznościowe, takie jak wesela czy przyjęcia tematyczne. Jeśli chcielibyście, żebyśmy zagościli u Was i oczarowali Waszych gości najlepszą kawą podaną w przepiękny sposób i z uśmiechem na twarzy, napiszcie do nas!</p>
-            <p>Zdjęcia by <Link className="custom-link" to="https://bauaban.com/" alt="Marcin Bałaban website">Marcin Bałaban - Bauaban Wedding Stories</Link></p>
+            <p>Oprócz tego, że regularnie serwujemy kawę w Małopolsce, równie chętnie uświetniamy swoją obecnością imprezy okolicznościowe, takie jak wesela czy przyjęcia tematyczne. Jeśli chcielibyście, żebyśmy zagościli u Was i oczarowali Waszych gości najlepszą kawą podaną w przepiękny sposób i z uśmiechem na twarzy, odezwijcie się do nas!</p>
+            <p>(Zdjęcia by <a className="custom-link" href="https://bauaban.com/" alt="Marcin Bałaban website" target="_blank" rel="noopener noreferrer">Marcin Bałaban - Bauaban Wedding Stories</a>)</p>
         </div>
         <CarouselSmall />
     </div>

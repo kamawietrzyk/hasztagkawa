@@ -26,7 +26,7 @@ const Eco = () => (
                     <span className="icon">
                         <FontAwesomeIcon icon={faLeaf} size="3x" />
                     </span>
-                    <p>Czujemy się integralną częścią naszej planety (jak mówią w świecie - <i>Cause there's no PLANet "B"!</i>), dlatego chętnie bierzemy udział we wszelkiego rodzaju akcjach charytatywnych i społecznych, które mają na celu poprawę jakości życia (m.in. zbiórki pieniędzy dla chorych dzieci czy dni otwarte schroniska) oraz ochronę środowiska - za zgromadzone napiwki regularnie sadzimy drzewka!</p>
+                    <p>Czujemy się integralną częścią naszej planety (jak mówią w świecie - <i>Cause there's no PLANet "B"!</i>), dlatego chętnie bierzemy udział we wszelkiego rodzaju akcjach charytatywnych i społecznych, które mają na celu poprawę jakości życia (m.in. zbiórki pieniędzy dla chorych dzieci czy dni otwarte schroniska) oraz ochronę środowiska. A za zgromadzone napiwki regularnie sadzimy drzewka!</p>
                 </div>
             </div>
         </div>
