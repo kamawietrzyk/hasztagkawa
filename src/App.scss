@@ -15,15 +15,15 @@
     }
 
     @media (min-width: $laptop) {
-      padding: 4rem 3rem;
+      padding: 4rem;
     }
 
     @media (min-width: $desktop) {
-      padding: 8vh 10vh;
+      padding: 8vh 15vh;
     }
 
     @media (min-width: $desktopL) {
-      padding: 6vw 15vw;
+      padding: 6vh 20vh;
     }
   }
 
@@ -41,15 +41,15 @@
     }
 
     @media (min-width: $laptop) {
-      padding: 3rem;
+      padding: 4rem;
     }
 
     @media (min-width: $desktop) {
-      padding: 7vh 10vh;
+      padding: 8vh 15vh;
     }
 
     @media (min-width: $desktopL) {
-      padding: 6vh 15vh;
+      padding: 6vh 20vh;
     }
   }
 }
