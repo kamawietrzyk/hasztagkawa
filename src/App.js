@@ -9,6 +9,7 @@ import Coffee from './components/Coffee';
 import Eco from './components/Eco';
 import Events from './components/Events';
 import Contact from './components/Contact';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Events />
         </div>
         <Contact />
+        <Footer />
       </div>
     </>
   );

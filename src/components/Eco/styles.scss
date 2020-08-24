@@ -53,7 +53,7 @@
             }
 
             @media (min-width: $desktopL) {
-                height: 20rem;
+                height: 21rem;
             }
         }
 
@@ -77,6 +77,10 @@
             grid-column-gap: 2rem;
             padding: 1rem 3rem;
         }
+
+        @media (min-width: $desktop) {
+            grid-column-gap: 2.75rem;
+        }
     }
 
     & hr {
@@ -89,6 +93,6 @@
     }
 
     @media (min-width: $desktopL) {
-        padding: 4rem 7vw;
+        padding: 4rem 8vw;
     }
 }

@@ -1,0 +1,19 @@
+@import '../../utils/media.scss';
+
+.Footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: rgba(186, 147, 105, .5);
+    text-align: center;
+    padding: 1rem 0;
+
+    & p {
+        font-size: 10px;
+        margin-top: .5rem;
+
+        @media (min-width: $tablet) {
+            font-size: 12px;
+        }
+    }
+}

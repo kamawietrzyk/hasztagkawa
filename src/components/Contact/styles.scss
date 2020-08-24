@@ -1,26 +1,93 @@
+@import '../../utils/media.scss';
+
 .Contact {
     width: 100%;
-    height: 40rem;
-    background-color: #9e7b57;
+    height: auto;
+    background-color: black;
     padding-top: 4rem;
     margin-top: -4rem;
     display: grid;
     justify-content: center;
+    border-bottom: 1px solid rgba(186, 147, 105, .3);
 
     &-content {
-        padding: 3rem 5rem;
 
         & h2 {
-            color: white;
+            color: #9e7b57;
+            text-align: center;
         }
 
         & hr {
-            background-color: rgba(186,147,105,.8);
+            background-color: rgba(186, 147, 105, .4);
             margin: 1rem auto;
         }
 
-        & p {
-            color: rgba(255, 255, 255, .5);
+        &__details {
+            width: 80vw;
+            height: 8rem;
+            margin-top: 2rem;
+
+            &-email,
+            &-phone,
+            &-events {
+                color: #9e7b57;
+                display: flex;
+                align-items: center;
+                padding-top: 1rem;
+            }
+
+            & h5 {
+                margin-bottom: 0;
+                font-size: 1em;
+            }
+
+            @media (min-width: $mobileM) {
+                width: 65vw;
+            }
+
+            @media (min-width: $tablet) {
+                width: 60vw;
+                height: auto;
+                margin-bottom: .25rem;
+            }
+
+            @media (min-width: $laptop) {
+                width: 50vw;
+            }
         }
+
+        &__socials {
+            padding: 3rem 20vw;
+            display: flex;
+            justify-content: space-evenly;
+
+            & a {
+                color: rgba(186, 147, 105, 0.7);
+
+                &:hover {
+                    color: white;
+                }
+            }
+
+            @media (min-width: $tablet) {
+                padding: 0;
+            }
+        }
+
+        & .screen {
+            @media (min-width: $tablet) {
+                display: grid;
+                grid-template-columns: 2fr .75fr;
+                justify-content: space-between;
+                align-items: flex-end;
+            }
+            @media (min-width: $laptop) {
+                grid-template-columns: 2fr .6fr;
+            }
+        }
+    }
+
+    @media (min-width: $tablet) {
+        height: 22rem;
     }
 }

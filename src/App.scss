@@ -19,12 +19,17 @@
     }
 
     @media (min-width: $desktop) {
-      padding: 8vh 15vh;
+      padding: 8vh 10vh;
+    }
+
+    @media (min-width: $desktopL) {
+      padding: 6vw 15vw;
     }
   }
 
   &-events {
-    padding: 1.5rem;
+    padding: 2rem 1.5rem;
+    margin-bottom: 5rem;
 
     @media (min-width: $mobileHorizontal) {
       padding: 1.5rem 2.5rem;
@@ -32,6 +37,7 @@
 
     @media (min-width: $tablet) {
       padding: 2rem 3rem;
+      margin-bottom: 0;
     }
 
     @media (min-width: $laptop) {
@@ -39,7 +45,11 @@
     }
 
     @media (min-width: $desktop) {
-      padding: 8vh 15vh;
+      padding: 7vh 10vh;
+    }
+
+    @media (min-width: $desktopL) {
+      padding: 6vh 15vh;
     }
   }
 }
