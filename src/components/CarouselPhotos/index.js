@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Slider from 'react-slick';
 import col1 from './col1.JPG';
 import col2 from './col2.JPG';
@@ -16,63 +16,63 @@ import MM9 from './MM9.jpg';
 import MM10 from './MM10.jpg';
 import './styles.scss';
 
-export default class CarouselSmall extends Component {
-    render() {
-        const settingsMobile = {
-            dots: false,
-            infinite: true,
-            speed: 600,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            pauseOnHover: true,
-            arrows: true,
-            autoplay: true,
-            autoplaySpeed: 4000,
-            cssEase: "linear"
-        };
+const CarouselSmall = () => {
+    const settingsMobile = {
+        dots: false,
+        infinite: true,
+        speed: 600,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        pauseOnHover: true,
+        arrows: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        cssEase: "linear"
+    };
 
-        const settingsScreen = {
-            dots: true,
-            infinite: true,
-            speed: 1000,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            pauseOnHover: true,
-            arrows: true,
-            autoplay: true,
-            autoplaySpeed: 6000,
-            cssEase: "linear"
-        };
+    const settingsScreen = {
+        dots: true,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        pauseOnHover: true,
+        arrows: true,
+        autoplay: true,
+        autoplaySpeed: 6000,
+        cssEase: "linear"
+    };
 
-        const photos = [
-            MM1, MM2, MM3, MM4, MM5, MM6, MM7, MM8, MM9, MM10, col1, col2, col3, col4
-        ]
+    const photos = [
+        MM1, MM2, MM3, MM4, MM5, MM6, MM7, MM8, MM9, MM10, col1, col2, col3, col4
+    ]
 
-        return (
-            <>
-                <div className="CarouselMobile">
-                    <Slider {...settingsMobile}>
-                        {photos.slice(0, 10).map((photo, index) => (
-                            <div className="CarouselSmall" key={index}>
-                                <div className="CarouselSmall-content">
-                                    <img src={photo} alt="Zdjęcia Marcin Bałaban" />
-                                </div>
+    return (
+        <>
+            <div className="CarouselMobile">
+                <Slider {...settingsMobile}>
+                    {photos.slice(0, 10).map((photo, index) => (
+                        <div className="CarouselSmall" key={index}>
+                            <div className="CarouselSmall-content">
+                                <img src={photo} alt="Zdjęcia Marcin Bałaban" />
                             </div>
-                        ))}
-                    </Slider>
-                </div>
-                <div className="CarouselScreen">
-                    <Slider {...settingsScreen}>
-                        {photos.slice(10).map((photo, index) => (
-                            <div className="CarouselSmall" key={index}>
-                                <div className="CarouselSmall-content">
-                                    <img src={photo} alt="Zdjęcia Marcin Bałaban" />
-                                </div>
+                        </div>
+                    ))}
+                </Slider>
+            </div>
+            <div className="CarouselScreen">
+                <Slider {...settingsScreen}>
+                    {photos.slice(10).map((photo, index) => (
+                        <div className="CarouselSmall" key={index}>
+                            <div className="CarouselSmall-content">
+                                <img src={photo} alt="Zdjęcia Marcin Bałaban" />
                             </div>
-                        ))}
-                    </Slider>
-                </div>
-            </>
-        );
-    }
+                        </div>
+                    ))}
+                </Slider>
+            </div>
+        </>
+    );
 }
+
+export default CarouselSmall

@@ -75,11 +75,11 @@
         }
 
         @media (min-width: $laptop) {
-            grid-template-columns: 1.1fr .7fr;
+            grid-template-columns: 1.1fr .8fr;
         }
 
         @media (min-width: $desktop) {
-            grid-template-columns: 1.4fr .7fr;
+            grid-template-columns: 1.4fr .8fr;
         }
     }
 
