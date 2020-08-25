@@ -16,12 +16,12 @@ function App() {
     <>
       <div className="App">
         <Header />
-        <div className="App-aboutUs">
+        <div className="App-box1">
           <AboutUs />
         </div>
         <Coffee />
         <Eco />
-        <div className="App-events">
+        <div className="App-box2">
           <Events />
         </div>
         <Contact />
