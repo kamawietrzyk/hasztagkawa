@@ -1,7 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAt, faPhoneAlt, faGlassCheers } from '@fortawesome/free-solid-svg-icons';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faInstagram, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 import './styles.scss';
 
@@ -28,7 +27,6 @@ const Contact = () => (
                 <div className="Contact-content__socials">
                     <a href="https://www.facebook.com/hasztagkawa" alt="facebook ikona" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebookSquare} size="lg" /></a>
                     <a href="https://www.instagram.com/hasztagkawa/" alt="instagram ikona" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
-                    <a href="#contact" alt="instagram ikona"><FontAwesomeIcon icon={faEnvelope} size="lg" /></a>
                 </div>
             </span>
         </div>

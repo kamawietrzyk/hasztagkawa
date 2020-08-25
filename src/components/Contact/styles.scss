@@ -77,12 +77,12 @@
         & .screen {
             @media (min-width: $tablet) {
                 display: grid;
-                grid-template-columns: 2fr .75fr;
+                grid-template-columns: 2fr .55fr;
                 justify-content: space-between;
                 align-items: flex-end;
             }
             @media (min-width: $laptop) {
-                grid-template-columns: 2fr .6fr;
+                grid-template-columns: 2.5fr .6fr;
             }
         }
     }
