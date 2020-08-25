@@ -2,8 +2,8 @@
 
 .Eco {
     width: 100%;
-    padding-top: 6rem;
-    margin-top: -6rem;
+    padding-top: 5rem;
+    margin-top: -5rem;
 
     & h2 {
         text-align: center;
@@ -29,7 +29,7 @@
         & .box-one,
         .box-two,
         .box-three {
-            background-color: rgba(186,147,105,.14);
+            background-color: rgba(186, 147, 105, .14);
             height: auto;
             width: 100%;
             margin-bottom: 1rem;
@@ -85,8 +85,13 @@
     }
 
     & hr {
-        background-color: rgba(186,147,105,.3);
+        background-color: rgba(186, 147, 105, .3);
         margin: 1rem auto;
+    }
+
+    @media (min-width: $tablet) {
+        padding-top: 6rem;
+        margin-top: -6rem;
     }
 
     @media (min-width: $desktop) {

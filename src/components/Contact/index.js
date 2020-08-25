@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAt, faPhoneAlt, faGlassCheers } from '@fortawesome/free-solid-svg-icons';
+import { faAt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 import './styles.scss';
 
@@ -17,11 +17,7 @@ const Contact = () => (
                     </div>
                     <div className="Contact-content__details-phone">
                         <FontAwesomeIcon icon={faPhoneAlt} />
-                        <h5 className="hasztag ml-2">Bus - Tomek 690-005-927</h5>
-                    </div>
-                    <div className="Contact-content__details-events">
-                        <FontAwesomeIcon icon={faGlassCheers} />
-                        <h5 className="hasztag ml-2">Eventy - Kasia 577-900-036</h5>
+                        <h5 className="hasztag ml-2"> Tomek 690-005-927</h5>
                     </div>
                 </div>
                 <div className="Contact-content__socials">
