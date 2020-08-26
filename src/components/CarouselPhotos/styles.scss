@@ -1,0 +1,39 @@
+@import '../../utils/media.scss';
+
+.CarouselMobile {
+    & .CarouselSmall {
+        &-content {
+            width: 100%;
+            height: auto;
+
+            & img {
+                max-width: 100%;
+            }
+        }
+    }
+
+    @media (min-width: $tablet) {
+        display: none;
+    }
+}
+
+.CarouselScreen {
+    display: none;
+
+    @media (min-width: $tablet) {
+        display: block;
+        margin-bottom: 8rem;
+
+        & .CarouselSmall {
+            &-content {
+                width: 100%;
+                height: auto;
+                border: 2px solid rgba(186,147,105,.3);
+
+                & img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

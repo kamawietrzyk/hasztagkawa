@@ -1,0 +1,25 @@
+@import '../../utils/media.scss';
+
+.Events {
+    width: 100%;
+    padding-top: 5rem;
+    margin-top: -5rem;
+
+    &-text {
+        margin-bottom: 2rem;
+
+        & .custom-link {
+            color: rgba(186,147,105,.7);
+
+            &:hover {
+                color: #9e7b57;
+                text-decoration: none;
+            }
+        }
+    }
+
+    @media (min-width: $tablet) {
+        padding-top: 6rem;
+        margin-top: -6rem;
+    }
+}

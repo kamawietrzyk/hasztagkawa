@@ -3,8 +3,21 @@
 .App {
   width: 100%;
 
-  &-container {
+  &-box1 {
     padding: 1.5rem;
+  }
+
+  &-box2 {
+    padding: 2rem 1.5rem;
+    margin-bottom: 5rem;
+
+    @media (min-width: $tablet) {
+      margin-bottom: 0;
+    }
+  }
+
+  &-box1,
+  &-box2 {
 
     @media (min-width: $mobileHorizontal) {
       padding: 1.5rem 2.5rem;
@@ -15,11 +28,15 @@
     }
 
     @media (min-width: $laptop) {
-      padding: 4rem 3rem;
+      padding: 4rem;
     }
 
     @media (min-width: $desktop) {
-      padding: 8vh 15vh;
+      padding: 6vh 10vw;
+    }
+
+    @media (min-width: $desktopL) {
+      padding: 6vh 20vh;
     }
   }
 }

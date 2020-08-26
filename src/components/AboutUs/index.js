@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 import trzyKawy from './trzyKawy.jpg';
 import kaczka1 from './kaczka1.jpg';
 import './styles.scss'
-import Carousel from "../Slider";
+import Carousel from '../Carousel';
 
 const AboutUs = () => (
     <>
@@ -15,7 +15,7 @@ const AboutUs = () => (
                 <hr />
                 <h4>Czołem!</h4>
                 <p>Nazywamy się <span className="hasztag">#KAWA</span> i jesteśmy braćmi, którzy wymarzyli sobie wspólny biznes.</p>
-                <p>Jest nas 3 - Kuba, Tomek i Mateusz, a do kompletu jedna ONA - Kaczka, która dostała od nas drugie życie i po wielu miesiącach ciężkiej pracy stała się przepięknym, jedynym w swoim rodzaju coffeetruckiem.</p>
+                <p>Jest nas trzech - Kuba, Tomek i Mateusz, a do kompletu jedna ONA - Kaczka, która dostała od nas drugie życie i po wielu miesiącach ciężkiej pracy stała się przepięknym, jedynym w swoim rodzaju coffeetruckiem.</p>
             </div>
         </div>
         <Carousel />

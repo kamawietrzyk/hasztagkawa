@@ -7,17 +7,25 @@ import Header from './components/Header';
 import AboutUs from './components/AboutUs';
 import Coffee from './components/Coffee';
 import Eco from './components/Eco';
+import Events from './components/Events';
+import Contact from './components/Contact';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
     <>
       <div className="App">
         <Header />
-        <div className="App-container">
+        <div className="App-box1">
           <AboutUs />
         </div>
         <Coffee />
         <Eco />
+        <div className="App-box2">
+          <Events />
+        </div>
+        <Contact />
+        <Footer />
       </div>
     </>
   );
