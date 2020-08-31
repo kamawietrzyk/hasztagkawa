@@ -1,7 +1,9 @@
-import React, { Component } from 'react'
-import bialeLogo from './bialeLogo.png'
-import czarneLogo from './czarneLogo.png'
-import './styles.scss'
+import React, { Component } from 'react';
+import bialeLogo from './bialeLogo.png';
+import czarneLogo from './czarneLogo.png';
+import { Link } from 'react-scroll';
+import { withRouter } from 'react-router-dom';
+import './styles.scss';
 
 class Header extends Component {
     state = {
@@ -34,13 +36,14 @@ class Header extends Component {
     };
 
     render() {
+
         const tabs = [
-            { name: "home", label: "HOME", href: "#home" },
-            { name: "about", label: "O NAS", href: "#about" },
-            { name: "coffee", label: "KAWA", href: "#coffee" },
-            { name: "eco", label: "EKOLOGIA", href: "#eco" },
-            { name: "events", label: "EVENTY", href: "#events" },
-            { name: "contact", label: "KONTAKT", href: "#contact" }
+            { name: "home", label: "HOME", to: "home" },
+            { name: "about", label: "O NAS", to: "about" },
+            { name: "coffee", label: "KAWA", to: "coffee" },
+            { name: "eco", label: "EKOLOGIA", to: "eco" },
+            { name: "events", label: "EVENTY", to: "events" },
+            { name: "contact", label: "KONTAKT", to: "contact" }
         ]
         return (
             <div className="Header" id="home">
@@ -57,8 +60,17 @@ class Header extends Component {
                             </button>
                             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div className="navbar-nav">
-                                    {tabs.map(({ name, label, href }) => (
-                                        <a key={name} className={`nav-item nav-link ${this.state.position && "dark"}`} href={href}>{label}</a>
+                                    {tabs.map(({ name, label, to }) => (
+                                        <Link
+                                            activeClass="active"
+                                            key={name}
+                                            to={to}
+                                            spy={true}
+                                            smooth={"easeInOutQuart"}
+                                            duration={900}
+                                            className={`nav-item nav-link ${this.state.position && "dark"}`}>
+                                            {label}
+                                        </Link>
                                     ))}
                                 </div>
                             </div>
@@ -67,8 +79,17 @@ class Header extends Component {
                 </div>
                 {this.state.navOpen &&
                     <div className={`mobile ${this.state.position && "whiteBg"}`}>
-                        {tabs.map(({ name, label, href }) => (
-                            <a key={name} onClick={this.toggleBurger} className={`nav-item nav-link ${this.state.position && "dark"}`} href={href}>{label}</a>
+                        {tabs.map(({ name, label, to }) => (
+                            <Link
+                                key={name}
+                                to={to}
+                                spy={true}
+                                smooth={"easeInOutQuart"}
+                                duration={1100}
+                                onClick={this.toggleBurger}
+                                className={`nav-item nav-link ${this.state.position && "dark"}`} >
+                                {label}
+                            </Link>
                         ))}
                     </div>
                 }
@@ -80,5 +101,5 @@ class Header extends Component {
     }
 };
 
-export default Header;
+export default withRouter(Header);
 

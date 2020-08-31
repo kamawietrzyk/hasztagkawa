@@ -2,15 +2,13 @@
 
 .Eco {
     width: 100%;
-    padding-top: 5rem;
-    margin-top: -5rem;
 
     & h2 {
         text-align: center;
         color: #9e7b57;
 
-        @media (min-width: $desktop) {
-            margin-top: 4rem;
+        @media (min-width: $laptop) {
+            margin-top: 3rem;
         }
     }
 
@@ -87,11 +85,6 @@
     & hr {
         background-color: rgba(186, 147, 105, .3);
         margin: 1rem auto;
-    }
-
-    @media (min-width: $tablet) {
-        padding-top: 6rem;
-        margin-top: -6rem;
     }
 
     @media (min-width: $desktop) {

@@ -70,19 +70,28 @@
                 }
             }
 
-            & a.nav-link {
+            & .nav-link {
                 font-weight: 600;
                 font-size: .95em;
                 color: rgba(255, 255, 255, .75);
+                cursor: pointer;
+
+                &.active {
+                    color: white;
+                }
 
                 &:hover {
-                    color: rgba(255, 255, 255, 1);
+                    color: white;
                 }
 
                 &.dark {
                     color: #95999c;
 
                     &:hover {
+                        color: black;
+                    }
+
+                    &.active {
                         color: black;
                     }
                 }
@@ -137,7 +146,7 @@
             transition: background-color 0.45s ease-out;
         }
 
-        & a.nav-link {
+        & .nav-link {
             color: #9e7b57;
             text-align: center;
 

@@ -3,7 +3,7 @@ import './styles.scss';
 import CarouselSmall from '../CarouselPhotos';
 
 const Events = () => (
-    <div className="Events" id="events">
+    <div className="Events">
         <div className="Events-text">
             <h2 className="hasztag">EVENTY</h2>
             <hr />

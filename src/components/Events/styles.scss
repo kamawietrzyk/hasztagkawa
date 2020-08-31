@@ -2,8 +2,6 @@
 
 .Events {
     width: 100%;
-    padding-top: 5rem;
-    margin-top: -5rem;
 
     &-text {
         margin-bottom: 2rem;
@@ -16,10 +14,9 @@
                 text-decoration: none;
             }
         }
-    }
 
-    @media (min-width: $tablet) {
-        padding-top: 6rem;
-        margin-top: -6rem;
+        & h2 {
+            margin-top: 2rem;
+        }
     }
 }
