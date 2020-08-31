@@ -5,7 +5,7 @@ import './styles.scss';
 
 const Eco = () => (
     <>
-        <div className="Eco" id="eco">
+        <div className="Eco">
             <h2 className="hasztag text-center">EKOLOGIA</h2>
             <hr />
             <div className="Eco-container">

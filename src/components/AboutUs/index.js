@@ -6,7 +6,7 @@ import Carousel from '../Carousel';
 
 const AboutUs = () => (
     <>
-        <div className="AboutUs" id="about">
+        <div className="AboutUs">
             <div className="AboutUs-pic">
                 <img src={trzyKawy} alt="#kawa trzy kawy" />
             </div>

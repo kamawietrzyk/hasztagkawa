@@ -76,6 +76,10 @@
                 color: rgba(255, 255, 255, .75);
                 cursor: pointer;
 
+                &.active {
+                    color: white;
+                }
+
                 &:hover {
                     color: white;
                 }
@@ -84,6 +88,10 @@
                     color: #95999c;
 
                     &:hover {
+                        color: black;
+                    }
+
+                    &.active {
                         color: black;
                     }
                 }

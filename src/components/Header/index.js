@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import bialeLogo from './bialeLogo.png';
 import czarneLogo from './czarneLogo.png';
-import { Link } from "react-scroll";
+import { Link } from 'react-scroll';
+import { withRouter } from 'react-router-dom';
 import './styles.scss';
 
 class Header extends Component {
@@ -35,6 +36,7 @@ class Header extends Component {
     };
 
     render() {
+
         const tabs = [
             { name: "home", label: "HOME", to: "home" },
             { name: "about", label: "O NAS", to: "about" },
@@ -60,6 +62,7 @@ class Header extends Component {
                                 <div className="navbar-nav">
                                     {tabs.map(({ name, label, to }) => (
                                         <Link
+                                            activeClass="active"
                                             key={name}
                                             to={to}
                                             spy={true}
@@ -98,5 +101,5 @@ class Header extends Component {
     }
 };
 
-export default Header;
+export default withRouter(Header);
 

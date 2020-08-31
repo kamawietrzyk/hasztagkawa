@@ -4,39 +4,56 @@
   width: 100%;
 
   &-box1 {
-    padding: 1.5rem;
+    padding: 4rem 1.5rem 2rem 1.5rem;
+
+    @media (min-width: $mobileHorizontal) {
+      padding: 4rem 2.5rem;
+    }
+
+    @media (min-width: $tablet) {
+      padding: 6rem 3rem 3rem 3rem;
+    }
   }
 
   &-box2 {
-    padding: 2rem 1.5rem;
-    margin-bottom: 5rem;
+    padding-top: 5rem;
+    margin-top: -3rem;
 
     @media (min-width: $tablet) {
-      margin-bottom: 0;
+      margin-top: -2rem;
+    }
+
+    @media (min-width: $laptop) {
+      padding-top: 2.5rem;
+    }
+
+    @media (min-width: $desktop) {
+      padding-top: 0;
+    }
+
+    @media (min-width: $desktopL) {
+      padding-left: 6vh;
+      padding-right: 6vh;
+    }
+  }
+
+  &-box3 {
+    padding: 2rem 1.5rem 6rem 1.5rem;
+
+    @media (min-width: $tablet) {
+      padding: 3.5rem 3rem;
     }
   }
 
   &-box1,
-  &-box2 {
-
-    @media (min-width: $mobileHorizontal) {
-      padding: 1.5rem 2.5rem;
-    }
-
-    @media (min-width: $tablet) {
-      padding: 2rem 3rem;
-    }
-
-    @media (min-width: $laptop) {
-      padding: 4rem;
-    }
+  &-box3 {
 
     @media (min-width: $desktop) {
-      padding: 6vh 10vw;
+      padding: 7vh 10vw;
     }
 
     @media (min-width: $desktopL) {
-      padding: 6vh 20vh;
+      padding: 7vh 25vh;
     }
   }
 }
