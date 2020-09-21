@@ -49,7 +49,7 @@ class Header extends Component {
             <div className="Header" id="home">
                 <div className={`Header-navbar ${this.state.position && "white"} ${!this.state.position && this.state.navOpen && "dark"}`}>
                     <div className="Header-navbar__logo">
-                        <a href="#home">
+                        <a href=" ">
                             <img src={!this.state.position ? bialeLogo : czarneLogo} className={this.state.position && "dark"} alt="hasztagKawa logo małe" />
                         </a>
                     </div>
