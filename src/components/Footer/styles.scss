@@ -6,11 +6,21 @@
     background-color: black;
     color: rgba(186, 147, 105, .5);
     text-align: center;
-    padding: 1rem 0;
+    padding: 1.25rem 0;
 
     & p {
         font-size: 10px;
-        margin-top: .5rem;
+        margin-top: .35rem;
+        margin-bottom: .35rem;
+
+        & .custom-link {
+            color: rgba(186,147,105,.75);
+
+            &:hover {
+                color: #c49d77;
+                text-decoration: none;
+            }
+        }
 
         @media (min-width: $tablet) {
             font-size: 12px;
